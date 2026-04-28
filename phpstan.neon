@@ -1,0 +1,19 @@
+includes:
+    - phpstan-baseline.neon
+    - vendor/nesbot/carbon/extension.neon
+    - vendor/larastan/larastan/extension.neon
+    - phar://phpstan.phar/conf/bleedingEdge.neon
+
+parameters:
+
+    paths:
+        - app
+        - bootstrap/app.php
+
+    excludePaths:
+        - database/migrations
+        - database/seeders
+
+    level: max
+
+    tmpDir: /tmp/phpstan
