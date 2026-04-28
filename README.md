@@ -112,4 +112,3 @@ Send `Accept-Language: en` (default) or `Accept-Language: ka` to localize all re
 - `players` — id, team_id, first_name, last_name, country, position, age, market_value
 - `transfer_listings` — id, player_id, seller_team_id, asking_price, status (`active`/`sold`/`cancelled`)
 - `transactions` — id, player_id, seller_team_id, buyer_team_id, price, old_value, new_value
-# Soccer-Manager-API
